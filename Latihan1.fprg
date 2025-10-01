@@ -4,9 +4,9 @@
         <attribute name="name" value="Latihan"/>
         <attribute name="authors" value="MUG1II"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-10-01 08:49:46 PM"/>
+        <attribute name="saved" value="2025-10-01 08:57:15 PM"/>
         <attribute name="created" value="TVVHMUlJO0xBUFRPUC1CQ00wRUxJUzsyMDI1LTEwLTAxOzA4OjM0OjM1IFBNOzI3NzQ="/>
-        <attribute name="edited" value="TVVHMUlJO0xBUFRPUC1CQ00wRUxJUzsyMDI1LTEwLTAxOzA4OjQ5OjQ2IFBNOzM7Mjg5Mg=="/>
+        <attribute name="edited" value="TVVHMUlJO0xBUFRPUC1CQ00wRUxJUzsyMDI1LTEwLTAxOzA4OjU3OjE1IFBNOzU7Mjg4OQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -24,23 +24,23 @@
             </if>
             <if expression="bil2%2==0">
                 <then>
-                    <output expression="&quot;genap&quot;" newline="True"/>
+                    <output expression="&quot;BILANGAN 2 GENAP&quot;" newline="True"/>
                 </then>
                 <else>
-                    <output expression="&quot;ganjil&quot;" newline="True"/>
+                    <output expression="&quot;BILANGAN 2 GANJIL&quot;" newline="True"/>
                 </else>
             </if>
             <if expression="bil1&gt;bil2">
                 <then>
-                    <output expression="&quot;bil 1 lebih besar&quot;" newline="True"/>
+                    <output expression="&quot;BILANGAN 1 LEBIH BESAR&quot;" newline="True"/>
                 </then>
                 <else>
                     <if expression="bil2&gt;bil1">
                         <then>
-                            <output expression="&quot;bil 2 lebih besar&quot;" newline="True"/>
+                            <output expression="&quot;BILANGAN 2 LEBIH BESAR&quot;" newline="True"/>
                         </then>
                         <else>
-                            <output expression="&quot;kedua bil sama besar&quot;" newline="True"/>
+                            <output expression="&quot;KEDUA BILANGAN SAMA&quot;" newline="True"/>
                         </else>
                     </if>
                 </else>
