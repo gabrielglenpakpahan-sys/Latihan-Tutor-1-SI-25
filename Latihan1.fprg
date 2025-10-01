@@ -4,9 +4,9 @@
         <attribute name="name" value="Latihan"/>
         <attribute name="authors" value="MUG1II"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-10-01 08:57:15 PM"/>
+        <attribute name="saved" value="2025-10-01 09:06:38 PM"/>
         <attribute name="created" value="TVVHMUlJO0xBUFRPUC1CQ00wRUxJUzsyMDI1LTEwLTAxOzA4OjM0OjM1IFBNOzI3NzQ="/>
-        <attribute name="edited" value="TVVHMUlJO0xBUFRPUC1CQ00wRUxJUzsyMDI1LTEwLTAxOzA4OjU3OjE1IFBNOzU7Mjg4OQ=="/>
+        <attribute name="edited" value="TVVHMUlJO0xBUFRPUC1CQ00wRUxJUzsyMDI1LTEwLTAxOzA5OjA2OjM4IFBNOzg7Mjg5Mg=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -16,10 +16,10 @@
             <input variable="bil2"/>
             <if expression="bil1%2==0">
                 <then>
-                    <output expression="&quot;bilangan pertama genap&quot;" newline="True"/>
+                    <output expression="&quot;BILANGAN 2 GENAP&quot;" newline="True"/>
                 </then>
                 <else>
-                    <output expression="&quot;bilangan pertama ganjil&quot;" newline="True"/>
+                    <output expression="&quot;BILANGAN 1 GANJIL&quot;" newline="True"/>
                 </else>
             </if>
             <if expression="bil2%2==0">
@@ -40,22 +40,22 @@
                             <output expression="&quot;BILANGAN 2 LEBIH BESAR&quot;" newline="True"/>
                         </then>
                         <else>
-                            <output expression="&quot;KEDUA BILANGAN SAMA&quot;" newline="True"/>
+                            <output expression="&quot;KEDUA BILANGAN SAMA BESAR&quot;" newline="True"/>
                         </else>
                     </if>
                 </else>
             </if>
             <if expression="(bil1%2==0) &amp;&amp; (bil2%2==0)">
                 <then>
-                    <output expression="&quot;hasil penjumlahan&quot; &amp; (bil1 + bil2)" newline="True"/>
+                    <output expression="&quot;HASIL PENJUMLAHAN&quot; &amp; (bil1 + bil2)" newline="True"/>
                 </then>
                 <else>
                     <if expression="(bil1%2!=0) &amp;&amp; (bil2%2!=0)">
                         <then>
-                            <output expression="&quot;hasil perkalian&quot; &amp; (bil1 * bil2)" newline="True"/>
+                            <output expression="&quot;HASIL PERKALIAN&quot; &amp; (bil1 * bil2)" newline="True"/>
                         </then>
                         <else>
-                            <output expression="&quot;berbeda jenis&quot;" newline="True"/>
+                            <output expression="&quot;BERBEDA JENIS&quot;" newline="True"/>
                         </else>
                     </if>
                 </else>
